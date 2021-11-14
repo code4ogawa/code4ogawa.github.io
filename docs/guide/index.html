@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120969715-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-120969715-1');
+    </script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <title>施設案内 | いわき市小川町</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+	<link rel="stylesheet" href="../assets/css/base.css">
+	<link rel="stylesheet" href="css/guide.css">
+    
+</head>
+
+<body>
+	<!-- ▼ ロード画面 ▼ -->
+	<div class="loading">
+		<img src="../images/loading.gif" />
+	</div>
+	
+	<!-- ▼ ナビゲーションバー ▼ -->
+	<div id=bar>
+
+		<!-- ▼ モバイル用ナビゲーションバー ▼ -->
+	    <div class="wrap">
+			<input id="menu" type="checkbox" name="menu" class="menu_check"/>
+			<label for="menu" class="btn"></label>
+			<nav class="menu_wrap">
+				<ul class="list">
+					<li><a href="../">ホーム</a></li>
+		            <li><a href="../information"><span>情報</span></a></li>
+		            <li><a href="../events"><span>観光・イベント</span></a></li>
+		            <li><a href="../guide"><span>施設案内</span></a></li>
+		            <li><a href="../about"><span>小川町について</span></a></li>
+				    <li><a href="../contacts"><span>お問い合わせ</span></a></li>
+				</ul>
+			</nav>
+			<div class="menu_close"><label for="menu"></label></div>
+		</div>
+	    <div class="nav3">
+			<a class="logo" href="../"><img src="../images/OGAWA_bl_x500.png" alt="OGAWA"></a> 
+		    <div class="nav3-contents">
+			    <ul>
+					<li><a href="../">ホーム</a></li>
+		            <li><a href="../information"><span>情報</span></a></li>
+		            <li><a href="../events"><span>観光・イベント</span></a></li>
+		            <li><a href="../guide"><span>施設案内</span></a></li>
+		            <li><a href="../about"><span>小川町について</span></a></li>
+				    <li><a href="../contacts"><span>お問い合わせ</span></a></li>
+			    </ul>
+		    </div>
+		</div>
+	</div>
+
+    <!-- ▼ メイン ▼ -->
+	<div id="main">
+
+		<!-- ▼ メイン中央 ▼ -->
+	    <div id="main-center">
+			<!-- ▼ 施設案内 ▼ -->
+		    <div class="guide">
+				<div class="guide-title"><h2>施設案内</h2></div>
+				<div class="guide-contents">
+					<div class=school>
+						<div class=school-title><h3>教育施設</h3></div>
+						<div class=school-contents>
+							<ul>
+								<li>いわき市立小川小学校</li>
+								<li>いわき市立小玉小学校</li>
+								<li>いわき市立小川中学校</li><br>
+							</ul>
+						</div>
+					</div>
+					<div class=other>
+						<div class=other-title><h3>その他の施設</h3></div>
+						<div class=other-contents>
+							<ul>
+								<li>小川支所 </li>
+								<li>小川公民館</li>
+								<li>小川市民運動場</li>
+							</ul>
+						</div>
+				    </div>
+				</div>
+		    </div>
+		</div>
+		
+	</div>
+
+	<!-- ▼ フッター ▼ -->
+	<footer id="footer">
+		<p><small id="footer_text">&copy; 2019 OgawaTown.</small></p>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/footer.js"></script>
+	<script>
+	$(function(){
+		});
+		$(window).on('load', function(){
+		  $('.loading').fadeOut();
+		});
+	</script>
+	
+</body>
+</html>

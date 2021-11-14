@@ -1,0 +1,1 @@
+$("#footer_text").html("&copy; 2020 OgawaTown.");
