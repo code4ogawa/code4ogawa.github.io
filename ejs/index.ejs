@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<% const meta = {
+  title: `Title`,
+  fileName: 'FileName'
+}; %>
+<%- include('components/_head.ejs', { meta }) %>
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <!-- ▼ Header ▼ -->
+    <%- include('components/_header.ejs') %>
+
+    <!-- ▼ Main ▼ -->
+    <main class="main">
+      <div class="main_wrap"></div>
+    </main>
+
+    <!-- ▼ Footer ▼ -->
+    <%- include('components/_footer.ejs') %>
+  
+  </div>
+
+</body>
+</html>
