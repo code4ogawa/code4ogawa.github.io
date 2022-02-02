@@ -1,157 +1,143 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120969715-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-120969715-1');
-    </script>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="福島県いわき市小川町の紹介ウェブサイトです。観光名所・イベントや小川町クイズなどいろいろな情報を掲載しています。美しい自然にあなたも癒されてみませんか。">
-	<meta name="keywords"  content="福島県いわき市,小川町">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>自然あふれる町 | いわき市小川町</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自然あふれる町 | いわき市小川町</title>
+  <meta name="description" content="福島県いわき市小川町のWebサイトです。観光名所・イベントなど様々な情報を掲載しています。美しい自然にあなたも癒されてみませんか。" />
+  <meta property="og:title" content="自然あふれる町 | いわき市小川町" />
+  <meta property="og:description" content="福島県いわき市小川町のWebサイトです。観光名所・イベントなど様々な情報を掲載しています。美しい自然にあなたも癒されてみませんか。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ogawa-fukushima.com/" />
+  <meta property="og:image" content="https://ogawa-fukushima.com/images/ogp.png" />
+  <meta property="og:site_name" content="自然あふれる町 | いわき市小川町" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./assets/css/animate.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
 
-    <!-- css -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
-	<!-- ▼ ナビゲーションバー ▼ -->
-	<div id=bar>
 
-		<!-- ▼ モバイル用ナビゲーションバー ▼ -->
-	    <div class="wrap">
-			<input id="menu" type="checkbox" name="menu" class="menu_check"/>
-			<label for="menu" class="btn"></label>
-			<nav class="menu_wrap">
-				<ul class="list">
-					<li><a href="">ホーム</a></li>
-		            <li><a href="information">情報</a></li>
-		            <li><a href="events">観光・イベント</a></li>
-		            <li><a href="guide">施設案内</a></li>
-		            <li><a href="about">小川町について</a></li>
-				    <li><a href="contacts">お問い合わせ</a></li>
-				</ul>
-			</nav>
-			<div class="menu_close"><label for="menu"></label></div>
-		</div>
-	    <div class="nav">
-		    <a class="logo" href=""><img src="images/OGAWA_wh_x500.png" alt="OGAWA"></a> 
-		    <div class="nav-contents">
-			    <ul>
-				    <li><a href="">ホーム</a></li>
-		            <li><a href="information">情報</a></li>
-		            <li><a href="events">観光・イベント</a></li>
-		            <li><a href="guide">施設案内</a></li>
-		            <li><a href="about">小川町について</a></li>
-				    <li><a href="contacts">お問い合わせ</a></li>
-			    </ul>
-		    </div>
-		</div>
-	    <div class="nav2">
-			<a class="logo" href=""><img src="images/OGAWA_bl_x500.png" alt="OGAWA"></a> 
-		    <div class="nav2-contents">
-			    <ul>
-				    <li><a href="">ホーム</a></li>
-		            <li><a href="information">情報</a></li>
-		            <li><a href="events">観光・イベント</a></li>
-		            <li><a href="guide">施設案内</a></li>
-		            <li><a href="about">小川町について</a></li>
-				    <li><a href="contacts">お問い合わせ</a></li>
-			    </ul>
-		    </div>
-		</div>
-	</div>
+  <div class="wrap">
 
-    <!-- ▼ トップ ▼ --> 
-	<div id="top">
-		<div class=top-text>
-			<h1 class="animated fadeInDown a1">自然あふれる　小川町</h1>
-			<h2 class="animated fadeInDown a2">疲れた時にはちょっとひと休み</h2>
-			<h2 class="animated fadeInDown a2">心を和ませる場所　それが小川町</h2>
-		</div>
-	</div>
+    <!-- ▼ Header ▼ -->
+    <header id="header" class="header">
+      <div class="header_wrap">
 
-    <!-- ▼ メイン ▼ -->
-	<div id="main">
+        <!-- ▼ Nav ▼ -->
+        <div id="bar">
 
-		<!-- ▼ メイン中央 ▼ -->
-	    <div id="main-center">
+          <!-- ▼ Nav-Mobile ▼ -->
+          <div class="nav_wrap">
+            <input id="menu" type="checkbox" name="menu" class="menu_check" />
+            <label for="menu" class="btn"></label>
+            <nav class="menu_wrap">
+              <ul class="list">
+                <li><a href="">ホーム</a></li>
+                <li><a href="./information">情報</a></li>
+                <li><a href="./events">観光・イベント</a></li>
+                <li><a href="./guide">施設案内</a></li>
+                <li><a href="./about">小川町について</a></li>
+                <li><a href="./contacts">お問い合わせ</a></li>
+              </ul>
+            </nav>
+            <div class="menu_close"><label for="menu"></label></div>
+          </div>
 
-			<!-- ▼ 最新ニュース ▼ -->
-		    <div class="news">
-				<div class="news-title"><h2>最新ニュース</h2></div>
-				<div class="news-contents">
-					<ul>
-						<li><span class="days">2020.12.24</span><span class="new">New!</span><br><span class="art"><a href="information/page/00011.html">パワーアップしたイルミネーション</a></span></li>
-						<li><span class="days">2020.4.3</span><br><span class="art"><a href="information/page/00010.html">美しく咲く諏訪神社の夜桜</a></span></li>
-						<li><span class="days">2019.12.24</span><br><span class="art"><a href="information/page/00009.html">メリークリスマス！</a></span></li>
-						<li><span class="days">2019.9.8</span><br><span class="art"><a href="information/page/00008.html">小川町の秋祭り</a></span></li>
-						<li><span class="days">2019.4.6</span><br><span class="art"><a href="information/page/00007.html">満開のしだれ桜</a></span></li>
-					</ul>
-				</div>
-				<div class="more"><a href="information">もっと見る</a></div>
-			</div>
-		</div>
-	   
-		<!-- ▼ メイン左 ▼ -->
-		<div id="main-left">
+          <div class="nav">
+            <a class="logo" href=""><img src="images/OGAWA_wh_x500.png" alt="OGAWA"></a>
+            <div class="nav-contents">
+              <ul>
+                <li><a href="">ホーム</a></li>
+                <li><a href="./information">情報</a></li>
+                <li><a href="./events">観光・イベント</a></li>
+                <li><a href="./guide">施設案内</a></li>
+                <li><a href="./about">小川町について</a></li>
+                <li><a href="./contacts">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div>
 
-	        <!-- ▼ おすすめの観光地 ▼ 
-			<div class="sights">
-				<div class="sights-title"><h2>おすすめの観光地</h2></div>
-				<div class="sights-contents">
-					<ul>
-						<li><img src="" alt="小玉ダム" width="100" height="100"><br>小玉ダム</li>
-					</ul>
-				</div>
-				<div class="more"><a href="#">もっと見る</a></div>
-			</div>-->
-			  
-		</div>
-	   
-        <!-- ▼ メイン右 ▼ -->
-		<div id="main-right">
+          <div class="nav2">
+            <a class="logo" href=""><img src="images/OGAWA_bl_x500.png" alt="OGAWA"></a>
+            <div class="nav2-contents">
+              <ul>
+                <li><a href="">ホーム</a></li>
+                <li><a href="./information">情報</a></li>
+                <li><a href="./events">観光・イベント</a></li>
+                <li><a href="./guide">施設案内</a></li>
+                <li><a href="./about">小川町について</a></li>
+                <li><a href="./contacts">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div>
 
-	        <!-- ▼ 今日のクイズ ▼ 
-			<div class="tquiz">
-				<div class="tquiz-title"><h2>今日のクイズ</h2></div>
-				<div class="tquiz-contents">
-					<ul>
-						<li>
-							<p>小川町の面積はどれくらい？</p>
-							<p><input type="radio" name="tquiz">1.0000</p>
-							<p><input type="radio" name="tquiz">2.0000</p>
-							<p><input type="radio" name="tquiz">3.0000</p>
-						</li>
-					</ul>
-				</div>
-				<div class="tquiz-answer"><a href="#">答えを見る</a></div>
-				<div class="more"><a href="#">ほかのクイズをやる</a></div>
-			</div>-->
-		</div>
+        </div>
 
-	</div>
+      </div>
+    </header>
 
-	<!-- ▼ フッター ▼ -->
-	<footer id="footer">
-		<p><small id="footer_text">&copy; 2022 OgawaTown.</small></p>
-	</footer>
 
-	<!-- jQuery -->
-	<script src="assets/js/jquery.min.js"></script>
-	<!-- main -->
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/footer.js"></script>
-	
+    <!-- ▼ Top ▼ -->
+    <div id="top">
+      <div class=top-text>
+        <h1 class="animated fadeInDown a1">自然あふれる　小川町</h1>
+        <h2 class="animated fadeInDown a2">疲れた時にはちょっとひと休み</h2>
+        <h2 class="animated fadeInDown a2">心を和ませる場所　それが小川町</h2>
+      </div>
+    </div>
+
+    <!-- ▼ Main ▼ -->
+    <main class="main">
+      <div class="main_wrap">
+
+        <!-- ▼ Center ▼ -->
+        <div id="main-center">
+
+          <!-- ▼ News ▼ -->
+          <div class="news">
+            <div class="news-title">
+              <h2>最新ニュース</h2>
+            </div>
+            <div class="news-contents">
+              <ul>
+                <li><span class="days">2020.12.24</span><span class="new">New!</span><br><span class="art"><a href="./information/page/00011.html">パワーアップしたイルミネーション</a></span></li>
+                <li><span class="days">2020.4.3</span><br><span class="art"><a href="./information/page/00010.html">美しく咲く諏訪神社の夜桜</a></span></li>
+                <li><span class="days">2019.12.24</span><br><span class="art"><a href="./information/page/00009.html">メリークリスマス！</a></span></li>
+                <li><span class="days">2019.9.8</span><br><span class="art"><a href="./information/page/00008.html">小川町の秋祭り</a></span></li>
+                <li><span class="days">2019.4.6</span><br><span class="art"><a href="./information/page/00007.html">満開のしだれ桜</a></span></li>
+              </ul>
+            </div>
+            <div class="more"><a href="./information">もっと見る</a></div>
+          </div>
+
+        </div>
+    </main>
+
+    <!-- ▼ Footer ▼ -->
+    <footer class="footer">
+      <div class="footer_wrap">
+        <div class="footer_content">
+          <div class="footer_content_inner">
+            <p class="copyright">&copy; 2022 OgawaTown</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ▼ JavaScript ▼ -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+  </div>
+
 </body>
+
 </html>
