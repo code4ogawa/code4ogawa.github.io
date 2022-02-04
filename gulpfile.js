@@ -27,7 +27,7 @@ gulp.task('sass', done => {
   gulp
     .src(`${PATH}*.scss`)
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./docs/assets/'));
   done();
 });
 
