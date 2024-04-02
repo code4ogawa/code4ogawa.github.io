@@ -2,4 +2,4 @@
 
 Ogawa town Web site
 
-https://ogawa-fukushima.com/
+https://code4ogawa.github.io/
